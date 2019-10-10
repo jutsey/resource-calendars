@@ -87,14 +87,6 @@ period_table = [
 	('2B','Open','1225','1300'),
 	('1','Open','1305','1340'),
 	('Lunch','Open','1110','1220'),
-	('1','Talent','1355','1445'),
-	('4A','Talent','0815','0930'),
-	('4B','Talent','0815','0930'),
-	('5','Talent','1050','1205'),
-	('6','Talent','1450','1540'),
-	('7A','Talent','1210','1300'),
-	('7B','Talent','1300','1350'),
-	('Lunch','Talent','1210','1350'),
 	]
 # create a dict for period lookup
 # concatenate the period and day to make a key for lookup
