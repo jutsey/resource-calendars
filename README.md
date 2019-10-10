@@ -15,4 +15,8 @@ days_table   -- this is where you say on what day what schedule your school is u
                 column. I sort day of week alphabetically and delete the weekends, the sort by day and remove Winter break, spring break
                 etc.  Then for special schedules I change the day of week to the name of the special day. "Open" for open house or
                 "Grandparents" for Grandparents Day. I take that and format it into the table in python
-              
+
+
+When you are done you have to close the ics file with END:VCALENDAR
+So the close-all.py file just appends that to the end of every ics file in the directory.
+
